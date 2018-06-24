@@ -1,0 +1,81 @@
+/*entire navigation bar*/
+.navbar {
+    list-style-type: none;
+    padding: 10px 0px 10px 20px;
+    overflow: hidden;
+}
+/*for all navigation bar items apart from the active*/
+#nav {
+    float: right;
+    font-size: 20px;
+    font-family: cursive;
+}
+/*each of the items in navigation bar*/
+li a {
+    display: block;
+    color: #D0C5F9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*color changes when cursor moves over the navigation bar items except the active*/
+li :hover:not(.active) {
+    background-color: rgb(72, 24, 185);
+}
+
+/*the Mtracker in navigation bar*/
+#home{
+    float: left;
+    font-family: cursive;
+    font-size: 30px;
+}
+/*highlighting currently active page*/
+
+.active {
+        background-color: rgb(31, 121, 173);
+    }
+/*for the entire body*/
+body{
+    background: #210A76;
+    font-family: cursive;
+    text-align: center; 
+}
+/*the paragraph and heading*/
+h2, p {
+    font-family: cursive;
+    color: beige;
+    font-size: 20px;
+}
+/* the form */
+#register-form {
+    margin: 40px 40px 70px 400px;
+    width: 300px;
+    height: auto;
+}
+input {
+    margin-bottom: 10px;
+    padding:10px 10px 10px 10px;
+    width:200%;
+    border: 0px;
+    font-size: 1em;
+    background: gainsboro;
+ }
+ button{
+    margin: 10px 10px 10px 150px;
+    padding: 10px;
+    background-color:rgb(17, 146, 17);
+    width: 100%;
+    color: beige;
+    font-size: 1em;
+ }
+ label {
+    font-family: cursive;
+    color: beige;
+    font-size: 15px;
+    margin: 0px 10px 100px 40px;
+
+ } 
+ #signin { 
+    color: rgb(17, 146, 17);     
+ }

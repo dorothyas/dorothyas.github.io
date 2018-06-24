@@ -1,0 +1,36 @@
+<DOCTYPE! html><html>
+    <title>Request-MTracker
+</title>
+<head>
+  <!--link to css file-->
+  <link rel="stylesheet" href="css/userrequest.css">
+</head>
+<body>
+  <!--navigation bar-->
+  <ul>
+    <li id="home"><a href="index.html">Mtracker</a></li>
+    <li id="nav"><a href="index.html">Sign Out</a></li>
+    <li id="nav"><a href="#help">Help</a></li>
+    <li id="nav"><a href="#">My Account</a></li>
+    <li id="nav"><a class="active" href="#">Make a Request</a></li>
+</ul>
+<!--request form-->
+<div>
+    <form action="url" id="request">
+      <input type="text" id="equipment" placeholder="Equipment Name" >
+      <input type="text" id="serialno" placeholder="serial number" >
+      <select id="floorno" placeholder="floor number" >
+        <!--value empty, disables the option when selected and hides it from list -->
+        <option value="" disabled selected hidden>Select floor number</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+      </select>
+      <input type="text" id="briefdescription" placeholder="Enter a brief description">
+      <button type="submit"><a href="userview.html">Submit</button>
+    </form>
+  </div>
+    
+</body>
+</html>

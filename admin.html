@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admin</title>
+</head>  
+<!--link to css file-->  
+<link rel="stylesheet" href="css/admin.css">
+<body>
+  <div class="navbar">
+    <li id="home"><a href="index.html">MTracker</a></li>
+    <li id="nav"><a href="index.html">Sign Out</a></li>
+    <li id="nav"><a class="active" href="#admin">Admin</a></li>
+    <li id="nav"><a href="#filter">Filter</a></li>
+  </div>
+<!--the table-->
+<table>
+  <!--table header row-->
+  <tr>
+    <th>Date</th>
+    <th>Time</th>
+    <th>Serial No</th>
+    <th>Equipment</th>
+    <th>Brief Description</th>
+    <th>Floor No.</th>
+    <th>Action Required</th>
+    <th>Mark as resolved</th>
+  </tr>
+  <!--table data examples-->
+  <tr>
+    <td>23/06/2018</td>
+    <td>13:37</td>
+    <td>CD-254</td>
+    <td>Refrigerator</td>
+    <td>Broken Electric Wire</td> 
+    <td>Two</td>
+    <td><select id="action" name="Action Required">
+      <option value="one">Approved</option>
+      <option value="two">Declined</option>
+         </select>
+     </td>
+    <td><button>Done</button></td>
+    </tr> 
+    <tr>
+      <td>24/06/2018</td>
+      <td>16:37</td>
+      <td>CD-256</td>
+      <td>AC</td>
+      <td>Leaking Ac</td> 
+      <td>Four</td>
+      <td><select id="action" name="Action Required">
+         <option value="one">Approved</option>
+        <option value="two">Declined</option>
+          </select></td>
+      <td><button>Done</button></td>
+    </tr> 
+</table>    
+</body>
+</html>

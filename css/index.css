@@ -1,0 +1,56 @@
+/*entire navigation bar*/
+.navbar {
+    list-style-type: none;
+    padding: 10px 0px 10px 20px;
+    overflow: hidden;
+}
+/*for all navigation bar items apart from the active*/
+#nav {
+    float: right;
+    font-size: 20px;
+}
+/*each of the items in navigation bar*/
+li a {
+    display: block;
+    color: #D0C5F9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*color changes when cursor moves over the navigation bar items except the active*/
+li :hover:not(.active) {
+    background-color: rgb(72, 24, 185);
+}
+
+
+/*the Mtracker in navigation bar*/
+#home {
+    float: left;
+    font-family: cursive;
+    font-size: 30px;
+}
+/*highlighting currently active page*/
+
+.active {
+    background-color: rgb(31, 121, 173);
+}
+
+/*for entire background color*/
+body{
+    background: #210A76;
+}
+
+#welcome-message {
+    font-family: cursive;
+    font-size: 25px;
+    margin: 100px 30px 35px 300px;
+    color: beige;
+
+}/*styling "Mtracker is here for you" */
+
+#tagline{
+    font-family: cursive;
+font-size: 50px;
+color: greenyellow;
+padding:0px 0px 0px 350px;
+}

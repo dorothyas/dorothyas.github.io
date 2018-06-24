@@ -1,0 +1,81 @@
+/*entire navigation bar*/
+.navbar {
+    list-style-type: none;
+    padding: 1px 0px 10px 20px;
+    overflow: hidden;
+}
+/*for all navigation bar items apart from the active*/
+#nav {
+    float: right;
+    font-size: 20px;
+    font-family: cursive;
+}
+/*each of the items in navigation bar*/
+li a {
+    display: block;
+    color:#D0C5F9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+/*color changes when cursor moves over the navigation bar items except the active*/
+li :hover:not(.active) {
+    background-color: rgb(72, 24, 185);
+}
+
+/*the Mtracker in navigation bar*/
+#home{
+    float: left;
+    font-family: cursive;
+    font-size: 30px;
+}
+/*highlighting currently active page*/
+.active {
+        background-color: rgb(31, 121, 173);
+    
+    }
+/*entire body*/
+body {
+    background: #210A76;
+    font-family: cursive;
+    text-align: center; 
+}
+/*for the login form*/
+.box {
+    color: #D0C5F9;
+    margin: 50px 50px 50px 450px;
+    width: 500px;
+    border-radius: 3px;
+    padding: 5px 20px 40px 10px; 
+}
+input {
+    background: gainsboro;
+    margin:30px 20px 10px 5px;
+    padding:20px;
+    width:100%;
+    border:grey 1px solid;
+    font-size: 1em;
+
+ }
+ /*submit button*/
+ button {
+     margin-top: 20px;
+     padding: 10px;
+     background-color:rgb(17, 146, 17);
+     width: 50%;
+     color: aliceblue;
+     font-size: large;
+     font-family: cursive;
+ }
+ /*for the small intro*/
+ #desc {
+     font-family: cursive;
+     font-size: 20px;
+     padding: 5px 0px 0px 0px ;
+     color:beige;
+ }
+ #signup, #click {
+    color: rgb(17, 146, 17);     
+
+ }
